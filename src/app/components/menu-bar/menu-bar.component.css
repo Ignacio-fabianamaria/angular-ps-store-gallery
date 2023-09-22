@@ -1,0 +1,9 @@
+.menu-bar_container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 999;
+  background-color: #ffff;
+  width: 100%;
+
+}
