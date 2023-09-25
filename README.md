@@ -8,7 +8,7 @@
 
 - [ ] Implementar a funcionalidade para alimentar os cards dinamicamente com dados do banco de dados local.
 
-- [ ] Criar um mecanismo para buscar automaticamente imagens dos jogos mais recentes.
+- [ ] escolher imagens dos jogos mais recentes.
 
 - [ ] Adicionar links nos cards para direcionar os usuários para a página da PSN do jogo original.
 
