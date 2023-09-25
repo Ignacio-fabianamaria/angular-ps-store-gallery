@@ -4,9 +4,9 @@
 
 ## Próximas Tarefas
 
-- [ ] Criar o banco de dados local chamado `dataFake` para alimentar os cards.
+- [x] Criar o banco de dados local chamado `dataFake` para alimentar os cards.
 
-- [ ] Implementar a funcionalidade para alimentar os cards dinamicamente com dados do banco de dados local.
+- [x] Implementar a funcionalidade para alimentar os cards dinamicamente com dados do banco de dados local.
 
 - [ ] escolher imagens dos jogos mais recentes.
 
