@@ -14,8 +14,6 @@
 
 - [x] Substituir o link do YouTube por um link para a PSN Store no menu-bar.
 
-- [ ] Incluir os links necessários no menu-bar para navegação.
-
-- [ ] Dividir o menu em componentes menores para facilitar a manutenção e organização do código.
+- [x] Incluir os links necessários no menu-bar para navegação.
 
 - [ ] Criar um componente footer para a página.
