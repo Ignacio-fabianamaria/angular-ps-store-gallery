@@ -12,7 +12,7 @@
 
 - [X] Adicionar links nos cards para direcionar os usuários para a página da PSN do jogo original.
 
-- [ ] Substituir o link do YouTube por um link para a PSN Store no menu-bar.
+- [x] Substituir o link do YouTube por um link para a PSN Store no menu-bar.
 
 - [ ] Incluir os links necessários no menu-bar para navegação.
 
