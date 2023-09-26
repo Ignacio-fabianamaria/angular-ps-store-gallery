@@ -16,4 +16,8 @@
 
 - [x] Incluir os links necessários no menu-bar para navegação.
 
-- [ ] Criar um componente footer para a página.
+- [x] Criar um componente footer para a página.
+
+- [ ] Criar carrosel nos cards
+
+- [ ] Fazer REadme do Pojeto
