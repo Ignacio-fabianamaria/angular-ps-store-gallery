@@ -8,9 +8,9 @@
 
 - [x] Implementar a funcionalidade para alimentar os cards dinamicamente com dados do banco de dados local.
 
-- [ ] escolher imagens dos jogos mais recentes.
+- [x] escolher imagens dos jogos mais recentes e alimentar o dataFake.
 
-- [ ] Adicionar links nos cards para direcionar os usuários para a página da PSN do jogo original.
+- [X] Adicionar links nos cards para direcionar os usuários para a página da PSN do jogo original.
 
 - [ ] Substituir o link do YouTube por um link para a PSN Store no menu-bar.
 
