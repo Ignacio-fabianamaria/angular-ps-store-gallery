@@ -27,6 +27,12 @@
 .menu-bar_item >ul >li{
   padding: 5px;
   margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-bar_item >ul >li >img{
+  width: 20px;
 }
 .menu-bar_item >ul >li >a{
 text-decoration: none;
