@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { slideConfig } from 'src/app/data/configs';
 import { dataFake } from 'src/app/data/dataFake';
+
 
 @Component({
   selector: 'app-home',
@@ -19,6 +21,8 @@ export class HomeComponent implements OnInit {
   gameLink:string = ""
   @Input()
   cardData:any[] = []
+  @Input()
+  config:{}=slideConfig
 
   constructor() { }
 

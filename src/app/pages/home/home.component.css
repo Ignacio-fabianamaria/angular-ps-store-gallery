@@ -1,5 +1,37 @@
 .home{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative
+}
+.home_img-right, .home_img-left{
+border-radius: 50%;
+width: 3.5rem;
+position: absolute;
+background-color: #ffffffe3;
+padding: 1rem;
+transition: filter 0.3s, outline 0.3s;
+z-index: 1
+}
+.home_img-right:hover, .home_img-left:hover{
+  filter: brightness(0.8);
+  outline: 2px solid #ffffffe3;
+  outline-offset: .25rem;
+}
+.home_img-right{
+  position: absolute;
+  right:9%;
+}
+.home_img-left {
+  position: absolute;
+  left:7.2%;
+}
+.home-carossel_container{
+  display: flex;
+align-items: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  max-width: 86%;
 }
 .home_container{
   width: 90%;

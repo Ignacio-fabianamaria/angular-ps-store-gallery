@@ -11,6 +11,7 @@ import { CardLabelComponent } from './components/card/card-label/card-label.comp
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
