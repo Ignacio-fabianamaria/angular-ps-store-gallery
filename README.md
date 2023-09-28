@@ -1,4 +1,5 @@
-# Angular PS Store Gallery
+# <img src="src/assets/psn-icon" width="50" height="50" style="vertical-align: middle;"> Angular PS Store Gallery ❌🔳🔺⭕
+ 
 
 <div align="center">
   
@@ -8,7 +9,7 @@
 
 ## :memo: Descrição
 
-O Angular PS Store Gallery é um projeto que simula uma galeria de jogos da PS Store. Ele foi desenvolvido com o framework Angular e oferece uma interface para explorar e visualizar informações sobre jogos da PlayStation Store.
+O Angular PS Store Gallery é um projeto que simula uma galeria de jogos da PS Store, desenvolvido com o framework Angular. Este projeto oferece uma interface responsiva para explorar e visualizar informações sobre jogos da PlayStation Store, garantindo uma experiência de usuário otimizada.
 
 <div align="center">
   
@@ -16,16 +17,14 @@ O Angular PS Store Gallery é um projeto que simula uma galeria de jogos da PS S
 
 </div>
 
-## Estrutura de Diretórios
+## :open_file_folder: Estrutura de Diretórios
 
 - A pasta components contém os principais componentes do projeto, incluindo card, menu-bar e footer.
 - O componente card possui subcomponentes card-label e card-pricing.
 - A pasta pages contém o componente home, responsável por renderizar o carrossel com os cards da galeria de jogos.
 - A pasta data contém o arquivo dataFake.ts, que serve como um banco de dados local com as informações necessárias para alimentar dinamicamente os cards usando *ngFor.
 
-<details>
-
-<sumary>O projeto está organizado da seguinte maneira:</sumary>
+O projeto está organizado da seguinte maneira
 
 ```
 
@@ -49,10 +48,11 @@ angular-ps-store-gallery/
 
 ```
 
-</details>
 
-## Componentes Principais
-### Componente Card
+
+## 🧩 Componentes Principais
+
+### :flower_playing_cards: Componente Card
 
 O componente `card` exibe informações sobre um jogo da galeria e contém os seguintes elementos:
 
@@ -60,7 +60,7 @@ O componente `card` exibe informações sobre um jogo da galeria e contém os se
 - Informações sobre o jogo, como título, descrição e preço.
 - Um link que redireciona para a página do jogo na PS Store.
 
-### Componente Menu-Bar
+### :abc: Componente Menu-Bar
 
 O componente `menu-bar` apresenta um menu de navegação com três opções:
 
@@ -68,11 +68,11 @@ O componente `menu-bar` apresenta um menu de navegação com três opções:
 2. Um link para o LinkedIn do autor do projeto.
 3. Um link para o GitHub do autor do projeto.
 
-## Componente Home
+## :house: Componente Home
 
 O componente `home` é responsável por exibir o carrossel que apresenta a galeria de jogos. Ele usa os dados do banco de dados local `dataFake.ts` para alimentar dinamicamente os cards.
 
-## Uso
+## :arrow_forward: Uso
 
 Para executar o projeto em sua máquina local, siga estas etapas:
 
@@ -105,3 +105,6 @@ Para executar o projeto em sua máquina local, siga estas etapas:
    ```
 
 5. Abra um navegador da web e acesse `http://localhost:4200` para visualizar a galeria de jogos da PS Store.
+
+
+
