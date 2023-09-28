@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
 }
+
 .menu-bar_item{
   display: flex;
   margin: auto;
@@ -37,8 +38,11 @@
 }
 .menu-bar_item >ul >li >a{
 text-decoration: none;
-color: black;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:#757575;
+font-weight: 600;
+font-size: 0.9375rem;
+line-height: 21px;
+font-family: SST, helvetica, arial, sans-serif;
 padding: 5px;
 }
 .menu-bar_item >ul >li >a:hover{

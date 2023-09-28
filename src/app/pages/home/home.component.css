@@ -33,6 +33,9 @@ align-items: center;
   scroll-behavior: smooth;
   max-width: 86%;
 }
+.home-carossel_container::-webkit-scrollbar {
+  display: none;
+}
 .home_container{
   width: 90%;
   margin: auto;

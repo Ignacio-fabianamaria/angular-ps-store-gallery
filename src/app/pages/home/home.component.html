@@ -1,6 +1,10 @@
 
 <div class="home">
-  <img src="../../../assets/left_icon-.svg" class="home_img-left" alt="left_icon">
+    <img
+    src="../../../assets/left_icon-.svg"
+    class="home_img-left" alt="left_icon"
+    (click)="leftClick()"
+    >
 <div class="home-carossel_container">
   <div class="home_container" *ngFor="let card of cardData">
     <app-card
@@ -8,9 +12,13 @@
     gameCover={{card.photo}}
     gameLabel={{card.label}}
     gameType={{card.type}}
-    gamePrice={{card.price}}
-    ></app-card>
+    gamePrice={{card.price}}>
+  </app-card>
   </div>
 </div>
-<img src="../../../assets/right_icon.svg" class="home_img-right" alt="right_icon">
+<img
+src="../../../assets/right_icon.svg"
+class="home_img-right" alt="right_icon"
+(click)="rigthlCick()"
+>
 </div>

@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { slideConfig } from 'src/app/data/configs';
 import { dataFake } from 'src/app/data/dataFake';
 
 
@@ -21,15 +20,26 @@ export class HomeComponent implements OnInit {
   gameLink:string = ""
   @Input()
   cardData:any[] = []
-  @Input()
-  config:{}=slideConfig
+  
 
   constructor() { }
 
   ngOnInit(): void {
     this.cardData = dataFake
     console.log(this.cardData);
-
   }
+  leftClick (): void {
+    const carouselContainer = document.querySelector('.home-carossel_container')as HTMLElement;
+    if (carouselContainer) {
+      carouselContainer.scrollLeft -= carouselContainer.offsetWidth
+    }
+  }
+  rigthlCick (): void {
+    const carouselContainer = document.querySelector('.home-carossel_container')as HTMLElement;
+    if (carouselContainer) {
+      carouselContainer.scrollLeft += carouselContainer.offsetWidth
+    }
+  }
+
 
 }
