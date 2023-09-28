@@ -20,11 +20,11 @@ z-index: 1
 }
 .home_img-right{
   position: absolute;
-  right:9%;
+  right:9.5%;
 }
 .home_img-left {
   position: absolute;
-  left:7.2%;
+  left:7.5%;
 }
 .home-carossel_container{
   display: flex;
@@ -37,7 +37,7 @@ align-items: center;
   display: none;
 }
 .home_container{
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: 50px;
   display: flex;

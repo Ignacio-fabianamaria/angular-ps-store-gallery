@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+  .home_img-right,.home_img-left {
+    width: 2rem;
+    padding: 0.5rem;
+  }
+  .home_img-right {
+    right: 5%;
+  }
+  .home_img-left {
+    left: 3.2%;
+  }
+  .home_container {
+    padding: 100px;
+  }
+}

@@ -18,6 +18,6 @@
 
 - [x] Criar um componente footer para a página.
 
-- [ ] Criar carrosel nos cards
+- [x] Criar carrosel nos cards
 
 - [ ] Fazer REadme do Pojeto

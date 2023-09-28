@@ -5,7 +5,7 @@ import { dataFake } from 'src/app/data/dataFake';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css', './home.component.responsive.css']
 })
 export class HomeComponent implements OnInit {
   @Input()
@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   gameLink:string = ""
   @Input()
   cardData:any[] = []
-  
+
 
   constructor() { }
 

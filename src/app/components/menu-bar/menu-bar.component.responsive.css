@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .menu-bar_container {
+    flex-direction: column;
+    height: auto;
+  }
+  .menu-bar_logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .menu-bar_item {
+    width: 100%;
+    text-align: center;
+  }
+  .menu-bar_item > ul {
+    flex-direction: row;
+    margin-left: 10px;
+  }
+  .menu-bar_item > ul > li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
