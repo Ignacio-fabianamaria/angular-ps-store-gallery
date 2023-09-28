@@ -10,8 +10,7 @@ https://angular-ps-store-gallery.vercel.app/
 
 ## :memo: Descrição
 
-O Angular PS Store Gallery é um projeto que simula uma galeria de jogos da PS Store, desenvolvido com o framework Angular. Este projeto oferece uma interface responsiva para explorar e visualizar informações sobre jogos da PlayStation Store, garantindo uma experiência de usuário otimizada.
-
+O Angular PS Store Gallery é um projeto desenvolvido com o framework Angular que simula uma galeria de jogos da PS Store. Este projeto oferece uma interface responsiva para explorar e visualizar informações sobre jogos da PlayStation Store, garantindo uma experiência de usuário otimizada. A tela principal desempenha um papel fundamental, sendo responsável por exibir o carrossel que apresenta a galeria de jogos. Ela utiliza os dados armazenados no banco de dados local dataFake.ts para alimentar dinamicamente os cards, permitindo que os jogos sejam apresentados de forma dinâmica.
 <div align="center">
   
 ![Art](art-1.gif)
